@@ -7,8 +7,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; MIT RailSim  documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Setup Guide &#8212; MIT RailSim  documentation</title>
   
   
   
@@ -40,9 +41,10 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
-    <link rel="index" title="Index" href="#" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'setup_guide';</script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to MIT RailSim’s documentation!" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -131,8 +133,8 @@
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="setup_guide.html">Setup Guide</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Setup Guide</a></li>
 </ul>
 
     </div>
@@ -174,6 +176,54 @@
         <div class="header-article-item">
 
 <div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/setup_guide.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
 
 
 
@@ -221,7 +271,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1></h1>
+    <h1>Setup Guide</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -235,12 +285,28 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <section id="setup-guide">
+<h1>Setup Guide<a class="headerlink" href="#setup-guide" title="Permalink to this heading">#</a></h1>
+<p>This project uses Pipenv for dependency management and packaging. You can learn about the dependencies looking at the Pipfile at the project root directory. Assuming you have a working version of pip, you can install Pipenv using pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--user<span class="w"> </span>pipenv
+</pre></div>
 </div>
+<p>Pipenv will take care of installing dependencies and creating the virtual environment. Run the following command from the project root directory (where the Pipfile and Pipfile.lock are located):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pipenv<span class="w"> </span>install
+</pre></div>
+</div>
+<p>You can activate the virtual environment using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pipenv<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>Depending on Python versions available on your system you may get an error like:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Error:<span class="w"> </span>the<span class="w"> </span>specified<span class="w"> </span>Python<span class="w"> </span>version<span class="w"> </span><span class="o">(</span><span class="m">3</span>.8<span class="o">)</span><span class="w"> </span>is<span class="w"> </span>not<span class="w"> </span>available<span class="w"> </span>on<span class="w"> </span>your<span class="w"> </span>system.
+</pre></div>
+</div>
+<p>It is recommended to install the required Python version using pyenv. You can install pyenv using the instructions at <a class="github reference external" href="https://github.com/pyenv/pyenv?tab=readme-ov-file#installation">pyenv/pyenv</a>.</p>
+<p>You may need to reactivate your shell after installing pyenv/pipenv to make sure they are added to the PATH.</p>
+<p>Once you have pyenv installed, Pipenv will ask you if you like to use pyenv to install the required Python version. You can say yes and Pipenv will install the required Python version in the virtual environment.</p>
+</section>
 
 
                 </article>
@@ -253,6 +319,15 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome to MIT RailSim’s documentation!</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
