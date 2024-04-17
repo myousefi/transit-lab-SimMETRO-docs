@@ -260,7 +260,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -276,6 +278,19 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-pipenv">Installing Pipenv</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-the-project-environment">Setting Up the Project Environment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activating-the-virtual-environment">Activating the Virtual Environment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting-python-version-errors">Troubleshooting Python Version Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -287,25 +302,49 @@ document.write(`
                   
   <section id="setup-guide">
 <h1>Setup Guide<a class="headerlink" href="#setup-guide" title="Permalink to this heading">#</a></h1>
-<p>This project uses Pipenv for dependency management and packaging. You can learn about the dependencies looking at the Pipfile at the project root directory. Assuming you have a working version of pip, you can install Pipenv using pip:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--user<span class="w"> </span>pipenv
+<p>This section outlines the steps for setting up the project environment using Pipenv, a tool for managing package dependencies and virtual environments. It assumes that the user has a working installation of pip.</p>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Ensure pip is installed by running <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">--version</span></code> in your terminal. If pip is not installed, follow the instructions on the <a class="reference external" href="https://pip.pypa.io/en/stable/installation/">pip installation guide</a>.</p></li>
+</ul>
+</section>
+<section id="installing-pipenv">
+<h2>Installing Pipenv<a class="headerlink" href="#installing-pipenv" title="Permalink to this heading">#</a></h2>
+<p>Pipenv can be installed via pip with the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>--user<span class="w"> </span>pipenv
 </pre></div>
 </div>
-<p>Pipenv will take care of installing dependencies and creating the virtual environment. Run the following command from the project root directory (where the Pipfile and Pipfile.lock are located):</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pipenv<span class="w"> </span>install
+<p>This command installs Pipenv for the current user. The <code class="docutils literal notranslate"><span class="pre">--user</span></code> flag ensures that Pipenv is installed in the user’s directory and does not require system-wide installation.</p>
+</section>
+<section id="setting-up-the-project-environment">
+<h2>Setting Up the Project Environment<a class="headerlink" href="#setting-up-the-project-environment" title="Permalink to this heading">#</a></h2>
+<p>Navigate to the project’s root directory, where the <code class="docutils literal notranslate"><span class="pre">Pipfile</span></code> and <code class="docutils literal notranslate"><span class="pre">Pipfile.lock</span></code> are located, and execute the following command to install dependencies and set up the virtual environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pipenv<span class="w"> </span>install
 </pre></div>
 </div>
-<p>You can activate the virtual environment using:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pipenv<span class="w"> </span>shell
+</section>
+<section id="activating-the-virtual-environment">
+<h2>Activating the Virtual Environment<a class="headerlink" href="#activating-the-virtual-environment" title="Permalink to this heading">#</a></h2>
+<p>Activate the virtual environment created by Pipenv using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pipenv<span class="w"> </span>shell
 </pre></div>
 </div>
-<p>Depending on Python versions available on your system you may get an error like:</p>
+</section>
+<section id="troubleshooting-python-version-errors">
+<h2>Troubleshooting Python Version Errors<a class="headerlink" href="#troubleshooting-python-version-errors" title="Permalink to this heading">#</a></h2>
+<p>If you encounter an error about an unavailable Python version, such as:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Error:<span class="w"> </span>the<span class="w"> </span>specified<span class="w"> </span>Python<span class="w"> </span>version<span class="w"> </span><span class="o">(</span><span class="m">3</span>.8<span class="o">)</span><span class="w"> </span>is<span class="w"> </span>not<span class="w"> </span>available<span class="w"> </span>on<span class="w"> </span>your<span class="w"> </span>system.
 </pre></div>
 </div>
-<p>It is recommended to install the required Python version using pyenv. You can install pyenv using the instructions at <a class="github reference external" href="https://github.com/pyenv/pyenv?tab=readme-ov-file#installation">pyenv/pyenv</a>.</p>
-<p>You may need to reactivate your shell after installing pyenv/pipenv to make sure they are added to the PATH.</p>
-<p>Once you have pyenv installed, Pipenv will ask you if you like to use pyenv to install the required Python version. You can say yes and Pipenv will install the required Python version in the virtual environment.</p>
+<p>It is recommended to use <code class="docutils literal notranslate"><span class="pre">pyenv</span></code> to manage multiple Python versions. Installation instructions for <code class="docutils literal notranslate"><span class="pre">pyenv</span></code> can be found at the <a class="reference external" href="https://github.com/pyenv/pyenv#installation">pyenv GitHub repository</a>.</p>
+<p>After installing <code class="docutils literal notranslate"><span class="pre">pyenv</span></code>, you may need to restart your shell or terminal to ensure <code class="docutils literal notranslate"><span class="pre">pyenv</span></code> and <code class="docutils literal notranslate"><span class="pre">pipenv</span></code> are correctly added to your PATH.</p>
+<p>When <code class="docutils literal notranslate"><span class="pre">pyenv</span></code> is installed, running <code class="docutils literal notranslate"><span class="pre">pipenv</span> <span class="pre">install</span></code> again will prompt Pipenv to use <code class="docutils literal notranslate"><span class="pre">pyenv</span></code> to install the missing Python version. Confirming this allows Pipenv to manage the required Python version for the project automatically.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this heading">#</a></h2>
+<p>This guide provided instructions for setting up your project environment with Pipenv, including installing dependencies and resolving Python version issues with <code class="docutils literal notranslate"><span class="pre">pyenv</span></code>. For additional information, consult the Pipenv documentation or community forums.</p>
+</section>
 </section>
 
 
@@ -334,6 +373,25 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-pipenv">Installing Pipenv</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-the-project-environment">Setting Up the Project Environment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activating-the-virtual-environment">Activating the Virtual Environment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting-python-version-errors">Troubleshooting Python Version Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
