@@ -4,11 +4,9 @@
 
 # MIT RailSim Documentation
 
-Discover the power of simulating urban heavy rail transit with MIT RailSim. This repository houses the comprehensive documentation for the MIT RailSim package, a cutting-edge tool developed by the renowned MIT Transit Lab.
+Welcome to the MIT RailSim documentation! While the full package isn't open-source right now, this documentation is a great way to learn about the capabilities of the rail simulation tool. Built on decades of research at (MIT Transit Lab)[https://www.transitlab.mit.edu/], RailSim enables you to simulate operations of an urban rapid transit metro line operations under Fixed-block or Moving-block signal system, integrating real-time control strategies, and finally analyzing the performance of the system from operator's or passenger's perspective.
 
-While the full package may not be open-sourced in the near future due to funding commitments and university copyrights, this documentation provides a valuable opportunity to explore and understand the capabilities of MIT RailSim. Built upon decades of research at the MIT Transit Lab, this simulation model offers unparalleled insights into the complex dynamics of urban rail systems.
-
-Whether you're a transportation planner, researcher, or simply curious about the inner workings of transit networks, the MIT RailSim documentation is your gateway to understanding the state-of-the-art in rail simulation. Dive into the detailed guides, explore the API reference, and learn how to harness the power of MIT RailSim for your own projects.
+Whether you're a transportation professional, academic researcher, or just a rail enthusiast, this documentation will help you understand how RailSim works and what it can do. Check out the guides, dive into the architecture reference, and start exploring how RailSim could help with your own projects or research.
 
 ## Key Documentation Files
 
