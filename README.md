@@ -1,5 +1,5 @@
 
-  > [!WARNING] This documentation is currently under active development. The content and structure may change as the project evolves. Please check back regularly for updates and improvements.
+**WARNING** This documentation is currently under active development. The content and structure may change as the project evolves. Please check back regularly for updates and improvements.
 
 
 # MIT RailSim Documentation
