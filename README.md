@@ -1,6 +1,6 @@
-<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
-  <strong>Warning:</strong> This documentation is currently under active development. The content and structure may change as the project evolves. Please check back regularly for updates and improvements.
-</div>
+
+  > [!WARNING] This documentation is currently under active development. The content and structure may change as the project evolves. Please check back regularly for updates and improvements.
+
 
 # MIT RailSim Documentation
 
