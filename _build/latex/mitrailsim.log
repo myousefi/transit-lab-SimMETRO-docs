@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.13)  21 APR 2024 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.13)  21 APR 2024 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,15 +858,15 @@ Chapter 1.
 [1
 
 
-] [2
-
-]
+] [2]
 Chapter 2.
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
-22.
+53.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [3] [4
+) [3
+
+] [4
 
 ]
 Chapter 3.
@@ -915,7 +915,7 @@ Chapter 13.
 ]
 Chapter 14.
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 3
-37.
+68.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 ) [27{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [
@@ -933,10 +933,10 @@ Package rerunfilecheck Info: File `mitrailsim.out' has not changed.
 (rerunfilecheck)             Checksum: 517BB5F4B1FE4B01DF9520A1D43DC240;4635.
  ) 
 Here is how much of TeX's memory you used:
- 16408 strings out of 474116
- 271807 string characters out of 5743682
+ 16417 strings out of 474116
+ 271911 string characters out of 5743682
  1940187 words of memory out of 5000000
- 38317 multiletter control sequences out of 15000+600000
+ 38319 multiletter control sequences out of 15000+600000
  602777 words of font info for 73 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  72i,11n,79p,832b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -945,10 +945,10 @@ r/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on mitrailsim.pdf (33 pages, 143619 bytes).
+Output written on mitrailsim.pdf (33 pages, 144228 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
  325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
