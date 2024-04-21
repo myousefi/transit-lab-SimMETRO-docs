@@ -10,8 +10,20 @@ Welcome to MIT RailSim's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   setup_guide
 
+   introduction
+   setup_guide
+   getting_started
+   usage
+   configuration
+   architecture
+   development
+   contribution_guidelines
+   api_documentation
+   faqs
+   troubleshooting
+   changelog
+   appendix
 
 
 Indices and tables
