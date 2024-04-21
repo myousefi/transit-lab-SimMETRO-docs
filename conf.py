@@ -13,8 +13,6 @@ author = "Mojtaba Yousefi, Jonah Stadtmauer"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
-
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
@@ -24,3 +22,6 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
+
+extensions = ['sphinxcontrib.bibtex']
+bibtex_bibfiles = ['refs.bib']
