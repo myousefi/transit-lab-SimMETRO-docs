@@ -1,4 +1,4 @@
-sphinx == "*"
-sphinx-book-theme == "*"
-sphinxcontrib-bibtex == "*"
-sphinx-autobuild == "*"
+sphinx
+sphinx-book-theme
+sphinxcontrib-bibtex
+sphinx-autobuild
