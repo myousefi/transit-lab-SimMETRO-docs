@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "MIT RailSim"
-copyright = "2024, Mojtaba Yousefi, Jonah Stadtmauer"
-author = "Mojtaba Yousefi, Jonah Stadtmauer"
+copyright = "2024, Transit Mobility Lab"
+author = "Mojtaba Yousefi"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
