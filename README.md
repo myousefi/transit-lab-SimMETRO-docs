@@ -36,7 +36,7 @@ Yousefi, M., & Koutsopoulos, H. N. (2024). MIT RailSim: A Modern Rail Transit Si
 @software{Yousefi_MIT_RailSim_2024,
 author = {Yousefi, Mojtaba and Koutsopoulos, Haris N.},
 title = {{MIT RailSim: A Modern Rail Transit Simulation Platform}},
-version = {1.0.0},
+version = {0.1.0},
 date = {2024-06-01},
 doi = {10.5281/zenodo.13111727},
 url = {https://myousefi.github.io/mit-rail-sim-docs/}
@@ -46,17 +46,17 @@ url = {https://myousefi.github.io/mit-rail-sim-docs/}
 ### Chicago Style
 
 ```
-Yousefi, Mojtaba, and Haris N. Koutsopoulos. 2024. MIT RailSim: A Modern Rail Transit Simulation Platform. Version 1.0.0. https://doi.org/10.5281/zenodo.13111727.
+Yousefi, Mojtaba, and Haris N. Koutsopoulos. 2024. MIT RailSim: A Modern Rail Transit Simulation Platform. Version 0.1.0. https://doi.org/10.5281/zenodo.13111727.
 ```
 
 ### MLA Format
 
 ```
-Yousefi, Mojtaba, and Haris N. Koutsopoulos. MIT RailSim: A Modern Rail Transit Simulation Platform. Version 1.0.0, 2024, https://doi.org/10.5281/zenodo.13111727.
+Yousefi, Mojtaba, and Haris N. Koutsopoulos. MIT RailSim: A Modern Rail Transit Simulation Platform. Version 0.1.0, 2024, https://doi.org/10.5281/zenodo.13111727.
 ```
 
 ### IEEE Format
 
 ```
-M. Yousefi and H. N. Koutsopoulos, "MIT RailSim: A Modern Rail Transit Simulation Platform," version 1.0.0, Jun. 2024. [Online]. Available: https://doi.org/10.5281/zenodo.13111727.
+M. Yousefi and H. N. Koutsopoulos, "MIT RailSim: A Modern Rail Transit Simulation Platform," version 0.1.0, Jun. 2024. [Online]. Available: https://doi.org/10.5281/zenodo.13111727.
 ```

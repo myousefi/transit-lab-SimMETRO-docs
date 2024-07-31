@@ -8,7 +8,7 @@ authors:
     given-names: "Haris N."
     orcid: "https://orcid.org/0000-0003-3830-9794"
 title: "MIT RailSim: A Modern Rail Transit Simulation Platform"
-version: 1.0.0
+version: 0.1.0
 doi: 10.5281/zenodo.13111727
 date-released: 2024-06-01
 url: "https://myousefi.github.io/mit-rail-sim-docs/"
