@@ -34,7 +34,7 @@ authors:
     - family-names: "Koutsopoulos"
       given-names: "Haris N."
       orcid: "https://orcid.org/0000-0003-3830-9794"
-title: "MIT RailSim"
+title: "MIT RailSim: A Modern Rail Transit Simulation Platform"
 version: 1.0.0
 doi: https://doi.org/10.5281/zenodo.13111727
 date-released: 2024-06-01
