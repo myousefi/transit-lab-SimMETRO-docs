@@ -7,12 +7,12 @@ authors:
   - family-names: "Koutsopoulos"
     given-names: "Haris N."
     orcid: "https://orcid.org/0000-0003-3830-9794"
-title: "RailSim: A Modern Rail Transit Simulation Platform"
+title: "TransitLab SimMETRO: A Modern Rail Transit Simulation Platform"
 version: 0.1.0
 doi: 10.5281/zenodo.13111727
 date-released: 2024-06-01
-url: "https://myousefi.github.io/rail-sim-docs/"
-repository-code: "https://github.com/myousefi/rail-sim-docs"
+url: "https://myousefi.github.io/transit-lab-SimMETRO-docs/"
+repository-code: "https://github.com/myousefi/transit-lab-SimMETRO-docs"
 keywords:
   - research
   - software
@@ -28,7 +28,7 @@ keywords:
   - moving-block
   - design pattern
 abstract: >
-  RailSim is an urban heavy-rail operations simulation model developed at the MIT Transit Lab, built upon decades of research. This repository contains a comprehensive documentation. While the full package may not be open-sourced soon, the documentation provides valuable insights into the capabilities of the simulation model.
+  TransitLab SimMETRO is an urban heavy-rail operations simulation model developed at the MIT Transit Lab, built upon decades of research. This repository contains a comprehensive documentation. While the full package may not be open-sourced soon, the documentation provides valuable insights into the capabilities of the simulation model.
 references:
   - type: article
     authors:
