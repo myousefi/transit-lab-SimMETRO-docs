@@ -8,8 +8,8 @@ authors:
     given-names: "Haris N."
     orcid: "https://orcid.org/0000-0003-3830-9794"
 title: "TransitLab SimMETRO: A Modern Rail Transit Simulation Platform"
-version: 0.1.0
-doi: 10.5281/zenodo.13111727
+version: 0.2.0
+doi: 10.5281/zenodo.13111726
 date-released: 2024-06-01
 url: "https://myousefi.github.io/transit-lab-SimMETRO-docs/"
 repository-code: "https://github.com/myousefi/transit-lab-SimMETRO-docs"
