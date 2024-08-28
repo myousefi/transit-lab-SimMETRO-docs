@@ -18,6 +18,11 @@ help:
 
 .PHONY: help Makefile
 
+# Custom target to build LaTeX PDF and copy to root directory
+latexpdf-root: latexpdf
+	@echo "Copying PDF to root directory..."
+	@cp $(BUILDDIR)/latex/*.pdf .
+	
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
