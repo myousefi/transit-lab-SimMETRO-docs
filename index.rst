@@ -18,12 +18,6 @@ Welcome to TransitLab SimMETRO's documentation!
    architecture
    development
    contribution_guidelines
-   api_documentation
-      infrastructure
-      train
-      passenger
-      simulation
-      utils
    advanced_features
       short_turning
       moving_block_control
