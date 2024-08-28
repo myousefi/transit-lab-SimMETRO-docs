@@ -7,9 +7,8 @@ Welcome to TransitLab SimMETRO's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
-
 
    introduction
    setup_guide
@@ -17,14 +16,44 @@ Welcome to TransitLab SimMETRO's documentation!
    usage
    configuration
    architecture
+      infrastructure
+         blocks
+         stations
+         paths
+         signal_control_systems
+      train
+         train_speed_regulator
+         train_passenger_manager
+      passenger
+         arrival_rate
+         passenger_generator
+      simulation
+         simulation_engine
+         replication_manager
+   mini_example
+      three_station_system
+         setup
+         running_simulation
+         analyzing_results
    development
    contribution_guidelines
    api_documentation
+      infrastructure
+      train
+      passenger
+      simulation
+      utils
+   advanced_features
+      short_turning
+      moving_block_control
+      holding_strategies
+   performance_optimization
    faqs
    troubleshooting
    changelog
    appendix
-
+      glossary
+      references
 
 Indices and tables
 ==================
