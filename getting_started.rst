@@ -28,7 +28,7 @@ Quick Start
 
    .. code-block:: bash
 
-      python -m mit_rail_sim.simulation_runner.runner
+      python -m transit_lab_simmetro.simulation_runner.runner
 
 4. Check the output:
 

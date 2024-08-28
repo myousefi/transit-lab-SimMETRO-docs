@@ -1,0 +1,20 @@
+div[class^="highlight"] pre {
+	white-space: pre-wrap !important;
+	word-wrap: break-word !important;
+	overflow-x: auto !important;
+}
+
+.highlight {
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+.viewcode-block {
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+.sig-name {
+	word-wrap: break-word;
+	word-break: break-all;
+}
