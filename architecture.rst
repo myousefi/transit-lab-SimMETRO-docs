@@ -5,7 +5,7 @@ Components Overview
 -------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Main Components:
 
    architecture/infrastructure/index

@@ -10,7 +10,7 @@ Whether you're a transportation professional, academic researcher, or just a rai
 
 The complete documentation is available as a PDF file: [TransitLab SimMETRO Documentation](./transitlabsimmetro.pdf).
 
-An online version is also available through Github Pages at [myousefi.github.io/rail-sim-docs/](https://myousefi.github.io/rail-sim-docs/).
+An online version is also available through Github Pages at [transit-lab-SimMETRO-docs](https://myousefi.github.io/transit-lab-SimMETRO-docs/).
 
 ## Additional Resources
 

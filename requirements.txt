@@ -2,3 +2,4 @@ sphinx
 sphinx-book-theme
 sphinxcontrib-bibtex
 sphinx-autobuild
+sphinx-copybutton
